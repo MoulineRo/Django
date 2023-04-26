@@ -20,7 +20,6 @@ def index(request):
 
 
 def postuser(request):
-    # получаем из данных запроса POST отправленные через форму данные
     age = int(request.POST.get("age", 1))
     res=[]
     if age>0 and age <=100:
