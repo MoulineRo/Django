@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student</title>
+</head>
+<body>
+    <h2>User form</h2>
+    <form method="post" action="postuser/">
+        {% csrf_token %}
+        <p>How many people generate:<br> <input name="age" type="number" /></p>
+        <input type="submit" value="Send" />
+
+</body>
+</html>
