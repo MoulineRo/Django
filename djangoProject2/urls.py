@@ -6,5 +6,5 @@ urlpatterns = [
     path("", views.index),
     path("postuser/", views.postuser),
     path("student/", views.student),
-    path('admin/', admin.site.urls),
+    path("admin/", admin.site.urls),
 ]
